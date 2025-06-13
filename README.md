@@ -229,7 +229,7 @@ altschool-exam/
 *Professional landing page showcasing startup project and technical capabilities*
 
 ![Aws Console Screenshot](./assets/aws.png)
-*Aws console screenshot**
+*Aws console screenshot*
 
 ## Technical Highlights
 
