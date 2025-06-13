@@ -229,6 +229,7 @@ altschool-exam/
 *Professional landing page showcasing startup project and technical capabilities*
 
 ![Aws Console Screenshot](./assets/aws.png)
+*Aws console screenshot**
 
 ## Technical Highlights
 
@@ -255,5 +256,3 @@ AI/ML Engineer
 - **Repository**: https://github.com/Godwin-T/altschool-exam
 
 ---
-
-*This deployment demonstrates enterprise-level web application infrastructure suitable for startup investor presentations and production environments.* 
