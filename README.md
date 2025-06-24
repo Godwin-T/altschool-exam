@@ -5,7 +5,7 @@
 This project demonstrates the deployment of a dynamic web application showcasing technical skills for startup investors. The application features a personalized landing page deployed on AWS EC2 with professional-grade infrastructure including reverse proxy configuration and SSL encryption.
 
 **Live Application**: [https://hundred.name.ng](https://hundred.name.ng)  
-**Public IP**: 54.190.132.93
+**Public IP**: 35.87.6.63
 
 ## Team Information
 
@@ -34,7 +34,7 @@ Internet → Domain (hundred.name.ng) → Nginx (Port 80/443) → React App (Por
 
 Deployed on AWS EC2 instance running Ubuntu with the following specifications:
 - **Instance Type**: EC2 Ubuntu
-- **Public IP**: 54.190.132.93
+- **Public IP**: 35.87.6.63
 - **Domain**: hundred.name.ng
 
 ### 2. Initial Server Setup
