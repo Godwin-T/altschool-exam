@@ -4,8 +4,8 @@
 
 This project demonstrates the deployment of a dynamic web application showcasing technical skills for startup investors. The application features a personalized landing page deployed on AWS EC2 with professional-grade infrastructure including reverse proxy configuration and SSL encryption.
 
-**Live Application**: [https://hundred.name.ng](https://hundred.name.ng)  
-**Public IP**: 35.87.6.63
+**Live Application**: [https://altexam.twilightparadox.com](https://altexam.twilightparadox.com/)  
+**Public IP**: 44.250.253.26
 
 ## Team Information
 
@@ -20,12 +20,12 @@ This project demonstrates the deployment of a dynamic web application showcasing
 - **Server**: AWS EC2 (Ubuntu)
 - **SSL**: Let's Encrypt (Certbot)
 - **Process Manager**: systemd
-- **Domain**: hundred.name.ng
+- **Domain**: altexam.twilightparadox.com
 
 ## Architecture
 
 ```
-Internet → Domain (hundred.name.ng) → Nginx (Port 80/443) → React App (Port 5173)
+Internet → Domain (altexam.twilightparadox.com) → Nginx (Port 80/443) → React App (Port 5173)
 ```
 
 ## Deployment Steps
@@ -34,8 +34,8 @@ Internet → Domain (hundred.name.ng) → Nginx (Port 80/443) → React App (Por
 
 Deployed on AWS EC2 instance running Ubuntu with the following specifications:
 - **Instance Type**: EC2 Ubuntu
-- **Public IP**: 35.87.6.63
-- **Domain**: hundred.name.ng
+- **Public IP**: 44.250.253.26
+- **Domain**: altexam.twilightparadox.com
 
 ### 2. Initial Server Setup
 
@@ -70,7 +70,7 @@ Configuration content:
 ```nginx
 server {
     listen 80;
-    server_name hundred.name.ng;
+    server_name altexam.twilightparadox.com;
     
     location / {
         proxy_pass http://127.0.0.1:5173;
@@ -102,7 +102,7 @@ sudo certbot --nginx
 ```
 
 This automatically:
-- Obtained SSL certificate for hundred.name.ng
+- Obtained SSL certificate for altexam.twilightparadox.com
 - Updated Nginx configuration for HTTPS
 - Set up automatic certificate renewal
 
@@ -219,7 +219,7 @@ altschool-exam/
 ## Deployment Verification
 
 ### Live Application
-- **URL**: https://hundred.name.ng
+- **URL**: https://altexam.twilightparadox.com
 - **Status**: ✅ Active
 - **SSL**: ✅ Secured with Let's Encrypt
 - **Performance**: ✅ Optimized with Nginx reverse proxy
@@ -252,7 +252,7 @@ altschool-exam/
 
 **Godwin Olagunju**  
 AI/ML Engineer  
-- **Application**: https://hundred.name.ng
+- **Application**: https://altexam.twilightparadox.com
 - **Repository**: https://github.com/Godwin-T/altschool-exam
 
 ---
